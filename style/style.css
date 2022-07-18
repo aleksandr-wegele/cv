@@ -1,0 +1,41 @@
+.body {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #5c5c5c;
+}
+
+.content {
+  background-color: #ffffff;
+}
+
+/*header*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*header left*/
+
+.header__headding {}
+
+.header__headding_name {}
+
+.header__headding_job {}
+
+.header__headding_skills {}
+
+.header__headding_skills-link {}
+
+/*header right*/
+
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__contacts_location {}
+
+.header__contacts_tel {}
+
+.header__contacts_mail {}
